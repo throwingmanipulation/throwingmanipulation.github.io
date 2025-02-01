@@ -1,0 +1,13 @@
+project-root/
+├── assets/
+│   ├── css/
+│   │   └── main.css
+│   ├── images/
+│   │   ├── cube_diff.gif
+│   │   ├── cube_same.gif
+│   │   ├── sphere_diff.gif
+│   │   └── cylinder_diff.gif
+│   └── stl-files/         # For storing STL files
+├── scripts/
+│   └── download.js
+└── index.html 

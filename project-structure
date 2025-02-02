@@ -8,6 +8,12 @@ project-root/
 │   │   ├── sphere_diff.gif
 │   │   └── cylinder_diff.gif
 │   └── stl-files/         # For storing STL files
+│       ├── throwing_ee_base_v2.stl          # Base mounting plate and support structure
+│       ├── throwing_ee_gripper_v2.stl       # Gripper fingers and actuation mechanism
+│       ├── throwing_ee_spring_housing_v2.stl # Housing for the spring mechanism
+│       ├── throwing_ee_release_v2.stl       # Release mechanism components
+│       ├── throwing_ee_xarm_mount_v2.stl    # xArm robot mounting adapter
+│       └── throwing_ee_full_assembly_v2.stl  # Complete assembly for reference
 ├── scripts/
 │   └── download.js
 └── index.html 

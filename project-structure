@@ -17,3 +17,6 @@ project-root/
 ├── scripts/
 │   └── download.js
 └── index.html 
+└── downloads/
+    ├── throwing_ee_stl_files.zip    # Contains all STL files
+    └── throwing_ee_cad_files.zip    # Contains Fusion 360 files 

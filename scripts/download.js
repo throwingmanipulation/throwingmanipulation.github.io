@@ -1,4 +1,4 @@
-export const downloadSTLFile = (fileName) => {
+function downloadSTLFile(fileName) {
   const fileUrl = `assets/stl-files/${fileName}`;
   
   fetch(fileUrl)
@@ -25,4 +25,12 @@ export const downloadSTLFile = (fileName) => {
       console.error('Error downloading file:', error);
       alert('Error downloading file. Please try again later.');
     });
-}; 
+}
+
+function downloadAllSTL() {
+  window.location.href = 'assets/downloads/throwing_ee_stl_files.zip';
+}
+
+function downloadCADFiles() {
+  window.location.href = 'assets/downloads/throwing_ee_cad_files.zip';
+} 

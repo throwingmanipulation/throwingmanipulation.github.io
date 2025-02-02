@@ -194,3 +194,18 @@ body {
 		margin: 8px 0;
 		color: #664d03;
 	}
+
+	blockquote {
+		font-size: 16px;
+		line-height: 1.6;
+		color: #555;
+	}
+
+	blockquote a {
+		color: #1367a7;
+		text-decoration: none;
+	}
+
+	blockquote a:hover {
+		text-decoration: underline;
+	}

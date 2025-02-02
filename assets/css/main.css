@@ -116,20 +116,26 @@ body {
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	}
 
+	.download-block {
+		margin-left: -50px;  /* Shift the block left */
+		width: 90%;         /* Control the width */
+	}
+
 	.download-link {
 		display: inline-block;
 		padding: 10px 20px;
 		margin: 5px;
 		background-color: #1367a7;
-		color: white;
+		color: white !important;  /* Force white color always */
 		border-radius: 5px;
 		text-decoration: none;
 		transition: background-color 0.3s ease;
+		font-weight: normal;
 	}
 
 	.download-link:hover {
 		background-color: #208799;
-		color: white;
+		color: white !important;
 	}
 
 	ul li {

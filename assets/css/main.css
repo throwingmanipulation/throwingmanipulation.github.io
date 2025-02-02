@@ -141,3 +141,56 @@ body {
 	ul li {
 		margin: 10px 0;
 	}
+
+	/* Assembly Instructions Styles */
+	.assembly-step {
+		margin: 30px 0;
+		padding: 20px;
+		background-color: #f8f8f8;
+		border-radius: 8px;
+	}
+
+	.assembly-step h4 {
+		color: #1367a7;
+		margin-bottom: 15px;
+		font-size: 20px;
+	}
+
+	.assembly-step figure {
+		margin: 0;
+	}
+
+	.assembly-step figcaption {
+		margin-top: 10px;
+		font-style: italic;
+		color: #666;
+	}
+
+	.dual-image {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+		margin: 15px 0;
+	}
+
+	.dual-image img {
+		width: calc(50% - 10px);
+	}
+
+	.assembly-notes {
+		margin-top: 30px;
+		padding: 20px;
+		background-color: #fff3cd;
+		border-left: 4px solid #ffc107;
+		border-radius: 4px;
+	}
+
+	.assembly-notes ul {
+		margin-left: 20px;
+		line-height: 1.6;
+	}
+
+	.assembly-notes li {
+		margin: 8px 0;
+		color: #664d03;
+	}

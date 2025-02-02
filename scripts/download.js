@@ -17,8 +17,8 @@ function downloadCADFiles() {
   // Using try-catch to handle potential errors
   try {
     const link = document.createElement('a');
-    link.href = 'assets/stl-files/throwing_ee_cad_files.zip';  // Updated to match STL path
-    link.download = 'throwing_ee_cad_files.zip';
+    link.href = 'assets/cad-files/Throwing_EE.zip';  // Updated to match STL path
+    link.download = 'Throwing_EE.zip';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
